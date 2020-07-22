@@ -24,7 +24,7 @@ function callPosters() {
 }
 
 function drawPoster(dischi) {
-  var template = $('#poster-template');
+  var template = $('#poster-template').html();
   var compiled = Handlebars.compile(template);
   var target = $('.cds-container container');
 
